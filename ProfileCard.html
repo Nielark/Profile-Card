@@ -11,96 +11,52 @@
 </head>
 <body>
     <div class="container">
-        <div class="card">
-            <div class="cover-photo"></div>
-
-            <div class="profile-photo"></div>
-
-            <div class="contacts">
-                <ul>
-                    <li>
-                        <a href=""><i class="fa-regular fa-envelope fa-lg"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fa-brands fa-facebook fa-lg"></i></a></li>
-                    <li>
-                        <a href=""><i class="fa-brands fa-linkedin fa-lg"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fa-brands fa-github fa-lg"></i></a>
-                    </li>
-                </ul>
+        <!--* PROFILE CARD  -->
+        <div class="profile-card">
+            <img class="banner" src="Images/388374.jpg" alt="banner">
+            
+            <div class="profile-container">
+                <img class="profile-photo" src="Images/MAGPANTAY, MARK DANIEL C (5.1) edited.png" alt="profile photo">
             </div>
 
-            <div class="info">
-                <div class="name-container">
-                    <h1>Hello World!</h1>
-                    <span class="name">I am Mark Daniel C. Magpantay</span>
-                    <span class="degree">a Computer Engineer</span>
+            <div class="information-container">
+                <div class="profile-information">
+                    <p class="name">Mark Daniel C. Magpantay</p>
+                    <p class="degree">Computer Engineer</p>
                 </div>
+    
+                <div class="social-accounts">
+                    <a href="mailto:markdanielcmagpantay@gmail.com" target="_blank">
+                        <i class="fa-regular fa-envelope fa-xl"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mark-daniel-magpantay/" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-xl"></i>
+                    </a>
+                    <a href="https://github.com/Nielark" target="_blank">
+                        <i class="fa-brands fa-github fa-xl"></i>
+                    </a>
+                </div>
+
+                <!-- About me button -->
+                <div class="about-me">About me</div>
+            </div>
+        </div>
+
+        <!--* OVERLAY -->
+        <div class="overlay"></div>
+
+        <!--* MODAL -->
+        <div class="modal">
+            <div class="prompt-type">
+                <p>Error 404: About Me Not Found</p>
             </div>
 
-            <footer class="footer">
-                <div class="left">
-                    <h4>Experience</h4>
-                </div>
-                <div class="right">
-                    <h4>Education History</h4>
-                </div>
-            </footer>
+            <div class="prompt-messeage">
+                <p>Looks like my personality didn’t load. Please try again later.</p>
+            </div>
 
-            <div class="show-skill">
-                <div class="skill-toggle-btn">
-                    <span>SKILLS</span>
-                </div>
-
-                <div class="skill-text">
-                    <div class="skill">   
-                        <i class="devicon-c-plain"></i>
-                    </div>
-                    <div class="skill">    
-                        <i class="devicon-cplusplus-plain"></i>
-                    </div>
-                    <div class="skill">  
-                        <i class="devicon-csharp-plain"></i>
-                    </div>
-                    <div class="skill">
-                        <i class="devicon-arduino-plain"></i>
-                    </div>
-                    <div class="skill">
-                        <i class="devicon-java-plain"></i>
-                    </div>
-                    <div class="skill">
-                        <i class="devicon-python-plain"></i>
-                    </div>
-                    <div class="skill">
-                        <i class="devicon-kotlin-plain"></i>
-                    </div>
-                    <div class="skill">
-                        <i class="devicon-go-original-wordmark"></i>
-                    </div>
-                    <div class="skill">
-                        <i class="devicon-html5-plain"></i>
-                    </div>
-                    <div class="skill">
-                        <i class="devicon-css3-plain"></i>
-                    </div>
-                    <div class="skill">
-                        <i class="devicon-javascript-plain"></i>
-                    </div>
-                    <div class="skill">
-                        <i class="devicon-php-plain"></i>
-                    </div>
-                    <div class="skill">
-                        <i class="devicon-visualbasic-plain"></i>
-                    </div>
-                    <div class="skill">
-                        <i class="devicon-mysql-original"></i>
-                    </div>
-                    <div class="skill">
-                        <i class="devicon-git-plain"></i>
-                    </div>
-                </div>
+            <div class="button">
+                <div class="btn-OK">OK</div>
             </div>
         </div>
     </div>
